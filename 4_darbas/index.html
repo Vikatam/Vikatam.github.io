@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="style/main.css" />
 
     <!-- Adding google fonts style -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <div id="header">
@@ -20,15 +19,18 @@
         <p>pažintinis puslapis </p>
       </div>
 
-      <div class="navigation">
-        <a href="#index.html">Pagrindinis</a>
-        <a href=>Apie</a>
-        <a href="#map-statistics">Statybos</a>
-        <a href=>Aplinka</a>
-        <a href=>Gyventojams</a>
-        <a href="#footer">Kontaktai</a>
-        <a href="pranesk.html" class="btn-default">Pasiūlymai</a>
+      
+        <div class="navigation">
+          <a href="index.html#header">Pagrindinis</a>
+          <a href="index.html#apie">Apie</a>
+          <a href="index.html#map-statistics">Statybos</a>
+          <a href="index.html#geoportal-map">Aplinka</a>
+          <a href="index.html#content-maps">Gyventojams</a>
+          <a href="kontaktai.html">Kontaktai</a>
+          <a href="pranesk.html" class="btn-default">Pasiūlymai</a>
+        </div>
       </div>
+     
     </div>
 
     <div id="intro">
@@ -36,7 +38,7 @@
 
       <div class="intro-text">
         
-        <p>Lazdijų rajono savivaldybė įsikūrusi Lietuvos pietvakariuose, netoli sienos su Lenkija ir Baltarusija.</p>
+        <p> Lazdijų rajono savivaldybė įsikūrusi Lietuvos pietvakariuose, netoli sienos su Lenkija ir Baltarusija.</p>
         <p>Administracinis centras Lazdijų miestas.</p> 
         <p>Lazdijų rajono savivaldybė užima 130938,7 ha teritoriją.</p> 
         <p>Šis kraštas vilioja nuostabiais kraštovaizdžiais ir natūralia, pramonės nepaliesta gamta. </p>
@@ -72,68 +74,148 @@
           fill="currentColor"
           d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/>
         </svg>
-    </div>
+        </div>
+
+        <!-- Apie -->
 
     
-    
+        <div id="apie">
 
-    <div id="map-statistics">
-      <h3> Statybų esančių savivaldybėje statistika</h3>
-      <p>
-        Susipažinkite su savivaldybėje esančių statybų statistika žemiau pateiktame žemėlapyje
-      </p>
-      <div class="iframe-map">
-        <iframe src="https://lazdijusav.000webhostapp.com/1_praktinis/?fbclid=IwAR0ei5nKjT_XnlvSgkSEYWovfhfNKPCKwbio-o-dUTYCLmKQ69P4eUsZxkY"></iframe>
+         <div class="card" style="width: 30rem;">
+         <img src="img/Ekrano kopija 2024-05-19 232248.png" class="card-img-sav" alt="Svarbiausios gyvenvietės savivaldybėje">
+         <div class="card-body">
+          <p class="card-text">Svarbiausios gyventvietės Lazdijų savivaldybėje</p>      
+          </div>
+         </div>
+   
+       <div class="aprasymas">
+        
+        <h3>Lazdijų rajone 2021m. surašymo duomenimis gyvena 18 247 žmonių. </h3>
+        <h3>Didžiausios gyvenvietės (2021 m.):</h3>
+
+        <p>Lazdijai – 4016 </p>
+        <p>Veisiejai – 1141</p>
+        <p>Seirijai – 679</p>
+        <p>Šeštokai – 516</p>
+        <p>Kapčiamiestis – 478</p>
+        <p>Lazdijai (kaimas) – 447</p>
+        <p>Kailiniai – 403</p>
+        <p>Šventežeris – 262</p>
+        <p>Krosna – 244</p>
+        <p>Miškiniai – 227</p> 
+      </div>
+    
+      
+
+      <div id="map-statistics">
+        <h3> Statybų esančių savivaldybėje statistika</h3>
+         <h2>
+          Šalia statybų, savivaldybėje vyksta ir infrastruktūros plėtra, siekiant gerinti gyvenimo kokybę vietos gyventojams bei turistams. Tai apima esamų objektų modernizavimą, bei naujų statymą. Susipažinkite su savivaldybėje esančių statybų statistika žemiau pateiktame žemėlapyje
+         </h2>
+         <div class="iframe-map">
+         <iframe src="https://lazdijusav.000webhostapp.com/1_praktinis/?fbclid=IwAR0ei5nKjT_XnlvSgkSEYWovfhfNKPCKwbio-o-dUTYCLmKQ69P4eUsZxkY"></iframe>
+         </div>
+
+        </div>
+         
+     </div>
+     
+
+     <div id="geoportal-map">
+      <h3> Susipažinkite su savivaldybės teritorija</h3>
+       <h2>
+        Lazdijų rajone telkšo daugiau kaip 150 ežerų, tarp kurių šio krašto pasididžiavimas – Dusios ežeras, dar vadinamas Dzūkijos jūra. Tai trečias pagal dydį ežeras Lietuvoje. Savivaldybėje yra Metelių ir Veisiejų regioniniai parkai 
+       </h2>
+      <div class="maps">
+        <iframe src="/2_darbas/"></iframe>
       </div>
     </div>
 
-    <div id="geoportal-map">
-      <h3> Susipažinkite su savivaldybės teritorija</h3>
-      <p>
-        Susipažinkite su savivaldybėje esančių statybų statistika žemiau pateiktame žemėlapyje
-      </p>
-      <div class="iframe-map">
-        <iframe src="https://vikatam.github.io/2_praktinis/"></iframe>
+<div id="turizmas">
+
+
+  <div class="atskiri" style="width: 18rem;">
+    <img src="img/Lazdijų krašto piliakalniai 1.jpg" class="card-img-top" alt=" Lazdijų rajono savivaldybės piliakalniai">
+    <div class="card-body">
+      <h2 class="card-title">Lazdijų rajono savivaldybės piliakalniai</h2>
+      <p class="card-text">Savivaldybėje gausu piliakalnių kurių teritorija yra suptvarkyta ir pritaikyta lankytojams</p>
+      <a href="https://www.lazdijai-turizmas.lt/data/ckfinder/files/Lazdij%c5%b3+kra%c5%a1to+piliakalni%c5%b3+%c5%beem%c4%97lapis.pdf" class="btn btn-primary">Daugiau...</a>
+    </div>
+  </div>
+
+  <div class="atskiri" style="width: 18rem;">
+    <img src="img/Laisvės kovų žemėlapis 1.jpg" class="card-img-top" alt=" Lazdijų rajono laisv4s kovos">
+    <div class="card-body">
+      <h2 class="card-title">Lazdijų rajono savivaldybės laisvės kovų žemėlapis</h2>
+      <p class="card-text">Savivaldybėje vyko daugybė laisvės kovų kurių vietos yra pažymėtos žemėlapyje</p>
+      <a href="https://www.lazdijai-turizmas.lt/data/ckfinder/files/Laisv%c4%97s+kov%c5%b3+%c5%beem%c4%97lapis.pdf" class="btn btn-primary">Daugiau...</a>
+    </div>
+  </div>
+  
+  <div class="atskiri" style="width: 18rem;">
+    <img src="img/Paplūdimių žemėlapis 2.jpg" class="card-img-top" alt=" Lazdijų rajono savivaldybės paplūdymiai">
+    <div class="card-body">
+      <h2 class="card-title">Lazdijų rajono savivaldybės krašto ežerų paplūdimių žemėlapis</h2>
+      <p class="card-text">Krašte gausu ežerų prie kurių galima leisti laiką viešuose paplūdimiuose</p>
+      <a href="https://www.lazdijai-turizmas.lt/data/ckfinder/files/Leidinys+%C5%BEvejyba+Lazdij%C5%B3+rajone.pdf" class="btn btn-primary">Daugiau...</a>
+    </div>
+  </div>
+
+</div>
+
+   
+
+    <div id="atlasas">
+      <h3> Svarbiausių Lazdijų savivaldybės lankytiniai objektai</h3>
+       <h2>
+        Lazdijų rajonas turi daugybę lankytinų objektų, kurie pritraukia tiek istorijos, tiek gamtos mėgėjus. Štai keletas svarbiausių vietų, kurias verta aplankyti
+       </h2>
+      <div class="iframe-atlasas">
+        <iframe src="/2_darbas/atlasas.html"></iframe>
+      </div>
+    </div>
+
+    <div class="planas">
+      <img src="img/istockphoto-1343363440-612x612.jpg" class="card-img-planavimas" >
+      <div class="planavimas">
+        <h5 class="card-title">Lazdijų rajono savivaldybės strateginis plėtros planas iki 2027 metų</h5>
+        <p class="card-text">Strateginis plėtros planas apima įvairius sektorius bei siekia prisidėti prie jų.Jei norite sužinoti daugiau spauskite <a href="https://www.lazdijai.lt/data/public/uploads/2020/12/spp-iki-2027-m..pdf" data-bs-toggle="tooltip" data-bs-title="Default tooltip">čia</a>
+        </p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
       </div>
     </div>
 
     <div id="content-maps">
-      <h3> Ivesti pasiūlymai Lazdijų rajono savivaldybės teritorijos tvarkymui</h3>
-      <p>
-        Susipažinkite su savivaldybėje esančių statybų statistika žemiau pateiktame žemėlapyje
-      </p>
+      <h3> Žmonių įvesti pasiūlymai Lazdijų rajono savivaldybės teritorijos tvarkymui</h3>
+      <h2>
+        Žemiau pateiktame žemėlapyje matomi jau patvirtinti gyventojų įvesti pasiūlymai ir nusiskundimai tvarkant Lazdijų rajono savivaldybės teritoją. Jei norite pateikti pasiūlymą spauskite <a href="pranesk.html" data-bs-toggle="tooltip" data-bs-title="Default tooltip">čia</a>
+      </h2>
+      
       <div class="maps">
         <iframe src="https://vu-lt.maps.arcgis.com/apps/webappviewer/index.html?id=b3174d7bcd78442089cfe914199f2a8d"></iframe>
       </div>
     </div>
 
-    
-  
-  
-  
 
 
-  <div id="footer">
-  </div>
+    <div id="footer">
 
 
-    <div class="contact-info">
-      <h2>KONTAKTAI</h2>
-      <p>Adresas: Vilnius, Čiurlionio gatvė 21</p>
-      <p>El paštas: viktorija.tamkeviciute@chgf.stud.vu.lt</p>
-      <p>Tel.: +37066208953</p>
-    </div>
 
-    <div class="map-container">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.540074148644!2d25.257229976335385!3d54.68252317391567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd940b3641eed1%3A0x3ec1ca5d498dc219!2sVU%20Chemijos%20ir%20geomoksl%C5%B3%20fakultetas!5e0!3m2!1slt!2slt!4v1715939649672!5m2!1slt!2slt" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="contact-info">
+        <h2>KONTAKTAI</h2>
+        <p>Adresas: Vilnius, Čiurlionio gatvė 21</p>
+        <p>El paštas: viktorija.tamkeviciute@chgf.stud.vu.lt</p>
+        <p>Tel.: +37066208953</p>
       </div>
-    
-</div>
-
-    <div class="content-row">
-      <div class="content-column">Viktorija T., 2024, VU</div>
-  
-    </div>
+ 
+       <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.540074148644!2d25.257229976335385!3d54.68252317391567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd940b3641eed1%3A0x3ec1ca5d498dc219!2sVU%20Chemijos%20ir%20geomoksl%C5%B3%20fakultetas!5e0!3m2!1slt!2slt!4v1715939649672!5m2!1slt!2slt" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </div>
+     
+   
+     
+       <div class="content-column">Viktorija T., 2024, VU</div>
 
   </body>
 </html>
